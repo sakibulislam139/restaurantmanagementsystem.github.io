@@ -1,0 +1,630 @@
+*{	
+
+	margin: 0;
+	padding: 0;
+    outline: 0;
+}
+
+.clear
+{ 
+    overflow: hidden;
+}
+#active
+{
+    background-color:#D1D2D4;
+}
+
+.navsection ul li a:hover
+{
+    color: #2FCC70;
+}
+.mailsection h2:hover
+{
+    color: #2FCC70;
+}
+.registersection h2:hover
+{
+    color: #2FCC70;   
+}
+.loginsection h2:hover
+{
+    color: #2FCC70;
+}
+.footernavsection ul li a:hover
+{
+    color: #2FCC70;
+}
+
+
+.messages
+{
+ border: 1px solid #666;
+    background-color: #fff;
+    border-radius: 5px;;
+    margin: 5px;
+    padding: 10px;
+    width: 450px;
+    height: 100px;   
+}
+input[type="text"]
+{
+    border: 1px solid #666;
+    background-color: #fff;
+    border-radius: 5px;;
+    margin: 5px;
+    padding: 10px;
+    width: 450px;
+    height: 24px;
+    
+}
+.bodyscetionforlogin
+{
+    margin: 0 auto;
+    background: #bbbeca0d;
+    width:  1200px;
+    font-family: Arial;
+}
+.headerSection
+{ 
+    margin: 0 auto;
+    width: 1200px;
+    position: fixed;
+    opacity: 0.9;
+    background: #fff;
+    height: 80px;
+    
+    
+}
+.headerforeatSection
+{
+    margin: 0 auto;
+    width: 1200px;
+    position: fixed;
+    opacity: 0.9;
+    background: #fff;
+    height: 127px;
+      
+}
+.headerSection img,.headerforeatSection img
+{
+    
+	height: 70px;
+	padding: 8px;
+	background: #fff;
+    float: left;
+        padding-left: 35px;
+}
+.navsection{}
+.navsection ul
+{
+    display: block;
+    
+}
+.navsection ul li
+{
+	float: left;
+	padding: 13px;
+	padding-top: 35px;
+    list-style: none;
+}
+.navsection ul li a
+{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.othermanusection
+{
+    padding-left: 20px;
+}
+.othermanusection img
+{
+    float: left;
+    width: 25px;
+    height: 25px;
+    padding-top: 33px;
+    
+}
+.nothing
+{
+    color: #fff;
+    height: 80px;
+    background-color: #fff;
+}
+.nothingeat
+{
+    color: #fff;
+    height: 127px;
+    background-color: #fff;
+}
+.footerSection
+{ 
+    margin: 0 auto;
+    width: 1200px;
+    background: #1F2326;
+    
+    
+}
+.mainfooterdsection
+{
+    
+}
+.opentime
+{
+    float: left;
+    padding: 10px;
+    width: 31%; 
+    
+}
+.opentime h2
+{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+}
+.opentime h4
+{
+    color: #fff;
+   padding-top: 5px; 
+}
+.apps
+{
+    float: left;
+    padding: 10px;
+    width: 31%;    
+}
+.apps h2
+{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+}
+.apps img
+{
+    float: left;
+    width: 151px;
+    padding: 17px;
+}
+.recent
+{
+    float: left;
+    padding: 10px;
+    width: 31%; 
+}
+
+.recent h2
+{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+}
+.recent h4
+{
+    color: #fff;
+    padding-top: 5px; 
+}
+.footernavsection
+{
+    
+}
+.footernavsection ul
+{
+    display: block;
+    margin-left: 227px;
+    
+}
+.footernavsection ul li
+{
+	float: left;
+	padding: 20px;
+    list-style: none;
+}
+.footernavsection ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.socialmanusection
+{
+    padding-left: 20px;
+    margin-left: 449px;
+}
+.socialmanusection img
+{
+
+    
+	padding-top: 15px;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 20px;
+    margin: 20px;
+}
+
+.welcomesection
+{
+    height: 400px;
+    background-image: url(images/loginbackground.jpg);
+    background-size: 100% 100%;
+}
+.welcomesection h2 ,.welcomeforeatsection h2
+,.welcomforblogesection h2
+,.welcomeforaboutussection h2,.welcomeforcontractussection h2,.welcomeloginsection h2,.welcomeforreservationsection h2
+{
+    padding-top: 130px;
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}
+.welcomeforeatsection
+{
+    height: 400px;
+    background-image: url(images/eat.jpg); 
+    background-size: 100% 100%;  
+}
+
+.welcomeforreservationsection
+{
+    height: 400px;
+    background-image: url(images/reservation.jpg); 
+    background-size: 100% 100%;  
+}
+.welcomforblogesection
+{
+   
+    height: 400px;
+    background-image: url(images/Food-Blog.jpg); 
+    background-size: 100% 100%;
+    
+}
+.welcomeforaboutussection
+{
+    
+    height: 400px;
+    background-image: url(images/aboutus.jpg); 
+    background-size: 100% 100%;
+    
+}
+.welcomeforcontractussection
+{
+    height: 400px;
+    background-image: url(images/contact1600x900.jpg); 
+    background-size: 100% 100%;  
+}
+.welcomeloginsection
+{
+    height: 400px;
+    background-image: url(images/account.jpg); 
+    background-size: 100% 100%; 
+}
+.loginsection
+
+{
+    float: left;
+    width: 48%;  
+}
+.loginsection h1 ,.mailsection h1,.registersection h1
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.loginsection h2 ,.mailsection h2,.registersection h2
+{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    float: right;
+    margin: 20px;
+    margin: 20px;
+    margin-right: 100px;
+}
+.mailsection p,
+.loginsection p ,.registersection p
+{
+   padding-bottom: 10px; 
+    
+}
+
+.loginsection h6
+{
+    color: coral;
+    padding-top: 10px;
+    font-size: 15px;
+    text-decoration: none;
+} 
+
+.registersection
+{
+    width: 48%;
+    float: left;
+    
+}
+.phonesection
+{
+    width: 48%;
+    float: left;
+  
+        
+    
+}
+
+.locationsection
+{
+    
+}
+.locationsection img
+{
+   float: left; 
+    width: 24px;
+    padding: 20px;
+}
+.locationsection p
+{
+    text-decoration: none;
+    color: #77828B;
+    padding: 20px;
+}
+.mailsection
+{
+    width: 48%;
+    float: left;
+}
+
+.phonesection p
+{
+    text-decoration: none;
+    color: #77828B;
+    padding: 20px;
+    padding-left: 59px;
+    padding-bottom: 0px;
+    
+}
+.aboutourrestaurant{}
+.aboutourrestaurant h2
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.aboutourrestaurant img
+{
+    width: 364px;
+    height: 231px;
+    float: left;
+    padding: 20px;
+    padding-top: 1px;
+    padding-left: 2px
+}
+.aboutourrestaurant p
+{
+    text-align: justify;
+    line-height: 24px;
+    font-size: 17px;
+    padding-right: 10px;
+}
+.faltu h2
+{
+    padding: 13px;
+    font-size: 16px;
+    color: #fff; 
+}
+.mainblogpost
+{
+    width: 67%;
+    float: left;
+}
+
+.submainblogpost
+{
+    margin: 10px;
+    padding: 10px;
+    background-color: #F0F1F5;
+    margin-left: 1px;
+}
+.submainblogpost h2
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.submainblogpost img
+{
+    width: 364px;
+    height: 231px;
+    float: left;
+    padding: 20px;
+    padding-top: 1px;
+    padding-left: 2px;
+    padding-bottom: 8px;
+}
+.submainblogpost p
+{
+    text-align: justify;
+    line-height: 24px;
+    font-size: 17px;
+}
+
+.submainblogpost p a
+{
+    color: #ff2233;
+}
+
+
+.sidberblogpost
+{
+    padding: 10px;
+    padding-right: 1px;
+}
+
+
+.popularsidebar
+
+{
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F0F1F5;
+}
+.popularsidebar h2
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #999;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.popular
+{
+    
+}
+.popular img
+{
+    width: 100px;
+    height: 86px;
+    float: left;
+    padding: 10px;
+}
+.popular p
+{
+    padding: 6px;
+    color: #000;
+    line-height: 19px;
+    text-align: justify;
+}
+.eatmanusection
+{
+    background-color: #EFF0F4;
+    
+}
+
+.eatmanusection ul
+{
+    display: block;
+    margin-left: 354px;
+}
+.eatmanusection ul li
+{
+    float: left;
+    list-style: none;
+    padding: 8px;
+}
+.eatmanusection ul li a
+{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+	
+    padding-left: 9px;
+}
+
+.starterssection ,.pastasection,.mainssection,.dessertssection
+{
+    
+}
+
+.starterssection h2,.pastasection h2,.mainssection h2,.dessertssection h2
+{
+    border-bottom: 1px solid #000;
+    text-align: center;
+    padding: 12px;
+    font-size: 38px;
+}
+.food1
+{
+    width: 49%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.food2
+{
+    width: 49%;
+    float: left;
+    margin-top: 10px;
+}
+.food1 img ,.food2 img
+{
+    width: 298px;
+    float: left;
+    height: 202px;
+    padding-right: 12px;
+}
+.foodtext{}
+.foodtext h2
+{
+    
+    padding: 10px;
+    font-size: 32px;
+}
+.foodtext p
+{
+    text-align: justify;
+    line-height: 17px;
+}
+
+.addtocartres
+{
+    margin: 10px;
+}
+.addtocart
+{
+    margin-top: 10px;
+}
+.addtocart p,.addtocartres p
+{
+    float: left;
+    padding: 14px;
+    color: #000;
+    background: #fff;
+}
+.addtocart h2
+{
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+}
+.addtocartres h2
+{
+    font-size: 20px;
+    background: #000;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.addtocartres h2:hover
+{
+   font-size: 20px;
+    background: #2FCC70;
+    color: #fff;
+    border-radius: 6px; 
+}
+.addtocart h2:hover
+{
+  font-size: 20px;
+    background: #2FCC70;
+    color: #fff;
+    border-radius: 6px;  
+}
+
+
+,.dessertssection
+
+
+
+
+
+
